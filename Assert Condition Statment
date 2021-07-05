@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class University {
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the number");
+    int no = sc.nextInt();
+
+    assert (no == 10):test();
+
+    System.out.println("You entered " + no);
+  }
+  public static String test() {
+    // TODO Auto-generated method stub
+    return "Please check the number";
+  }
+}
